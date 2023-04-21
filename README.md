@@ -10,7 +10,7 @@ Para esta aplicación se utilizaron las siguientes tecnologías.
 ## Instrucciones
 
 - Crear la base de datos con el nombre de user-management.
-- Clonar el proyecto y modificar el archivo application.properties ubucado en src/main/java/resources con las credenciales de su gestor de bases de datos PostgreSQL.
+- Clonar el proyecto y modificar el archivo application.properties ubicado en src/main/java/resources con las credenciales de su gestor de bases de datos PostgreSQL.
 - Sincronizar el archivo pom.xml y ejecutar el proyecto.
 
 ## Consumir endpoints
@@ -26,9 +26,9 @@ Para crear una usuario se usa la ruta http://localhost:5000/api/user de tipo POS
     "password" : "",
 }
 ```
-- Para listar los usuarios se usa la ruta http://localhost:5000/api/user de tipo GET.
-- Para ver un usuario se usa la ruta http://localhost:5000/api/user/{id} de tipo GET.
-- Para modificar un usuario se usa la ruta http://localhost:5000/api/user/{id} de tipo PUT con la siguiente estructura json.
+- Listar usuarios: Para listar los usuarios se usa la ruta http://localhost:5000/api/user de tipo GET.
+- Ver un usuario: Para ver un usuario se usa la ruta http://localhost:5000/api/user/{id} de tipo GET.
+- Modificar usuario: Para modificar un usuario se usa la ruta http://localhost:5000/api/user/{id} de tipo PUT con la siguiente estructura json.
 ```
 {
     "username" : "",
@@ -36,7 +36,7 @@ Para crear una usuario se usa la ruta http://localhost:5000/api/user de tipo POS
     "password" : "",
 }
 ```
-- Para eliminar un usuario se usa la ruta http://localhost:5000/api/user/{id} de tipo DELETE.
+- Eliminar usuario: Para eliminar un usuario se usa la ruta http://localhost:5000/api/user/{id} de tipo DELETE.
 
 ## Tareas faltantes
 
