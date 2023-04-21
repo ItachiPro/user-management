@@ -6,7 +6,7 @@ import lombok.*;
 @Entity
 @Table(name = "users")
 @AllArgsConstructor @NoArgsConstructor
-public class User {
+public class Users {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Getter @Setter @Column(name = "id", updatable = false, nullable = false)
